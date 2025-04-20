@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang='uk'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link rel="stylesheet" href="style.css">
+    <title>EasyCook</title>
+</head>
+<body>
+    <!-- Інші елементи залишаються без змін -->
+
+    <div class="create-recept-page">
+        <div class="recept-face-side">
+            <div class="information-recept">
+                <div class="recept-image">Тут повинно бути "фото"</div>
+                <div class="recept-description">
+                    <div class="recept-name"> 
+                        <input type="text" maxlength="25" placeholder="Назва рецепту" class="searchbar-recept-name"> 
+                    </div>
+                    <div class="recept-info"> 
+                        <input type="text" maxlength="400" placeholder="Опис страви" class="searchbar-recept-info"> 
+                    </div>
+                    
+                    <!--👍🏻 Ліва колонка -->
+                    <div class="left-column">
+                        <!--🫥 Час готування -->
+                        <div class="cooking-time">
+                            <label>Час готування (хв):</label>
+                            <input type="number" min="1" value="30" class="time-input">
+                        </div>
+
+                        <!-- Інгредієнти -->
+                        <div class="ingredients-section">
+                            <h3>Інгредієнти</h3>
+                            <div class="ingredient-input">
+                                <input type="text" placeholder="Новий інгредієнт" class="ingredient-field">
+                                <button class="add-btn" onclick="addIngredient()">+</button>
+                            </div>
+                            <div class="ingredients-list"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Права колонка (Кроки) -->
+            <div class="right-column">
+                <div class="steps-section">
+                    <h3>Кроки приготування</h3>
+                    <div class="step-input">
+                        <textarea placeholder="Новий крок" class="step-field"></textarea>
+                        <button class="add-btn" onclick="addStep()">+</button>
+                    </div>
+                    <div class="steps-list"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+      
+      function addIngredient() {
+            const input = document.querySelector('.ingredient-field');
+            const list = document.querySelector('.ingredients-list');
+            
+            if(input.value.trim()) {
+                const div = document.createElement('div');
+                div.className = 'ingredient-item';
+                div.textContent =  ${input.value};
+                list.appendChild(div);
+                input.value = '';
+            }
+        }
+
+        function addStep() {
+            const input = document.querySelector('.step-field');
+            const list = document.querySelector('.steps-list');
+            
+            if(input.value.trim()) {
+                const div = document.createElement('div');
+                div.className = 'step-item';
+                div.innerHTML = 
+<span class="step-number">${list.children.length + 1}.</span>
+<span class="step-text">${input.value}</span>
+                ;
+                list.appendChild(div);
+                input.value = '';
+            }
+        }
+    </script>
+</body>
+</html>
