@@ -1,0 +1,138 @@
+.header-menu{
+    background-color: orange;
+    width: 100%;
+    border-radius: 15px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    position: relative;
+}
+.start-image{
+    display: none;
+    width: 100%;
+    height: 700px;
+    position: relative;
+}
+.main-menu{
+    flex-direction: row;
+    display: none;
+    width: 100%;
+    position: relative;
+}
+.golovna{
+    display: flex;
+    width: 100px;
+    color: white;
+    align-items: center;
+    height: 50px;
+    padding-left: 20px;
+    position: relative;
+}
+.poshuk{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    position: relative;
+}
+.create-recept{
+    display: flex;
+    justify-content: flex-end;
+    width: 150px;
+    height: 35px;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: peru;
+    align-items: center;
+    position: relative;
+}
+
+.searchbar {
+    font-size: 14px;
+    width: 100%;
+    height: 15px;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    padding: 10px;
+    position: relative;
+    }
+
+.categories {
+    width: 300px;
+    font-size: 16px;
+    font-weight: 600;
+    flex-direction: column;
+    position:relative;
+}
+.recept-list {
+    width: 1660px;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    left: 20px;
+    border-left: 1px solid black;
+    
+
+}
+.recept {
+    width: 1000px;
+    height: 200px;
+    display: flex;
+    position: relative;
+    padding-top: 50px;
+    border: 2px solid black;
+    box-shadow: 4px black;
+    border-radius: 15px;
+}
+
+.create-recept-page{
+    width: 100%;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+}
+.recept-face-side{
+    width: 90%;
+    height: 500px;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    background-color: lightgray;
+}
+.recept-image{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    
+}
+.recept-description{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    
+}
+
+.recept-name{
+    height: 20%;
+    width: 90%;
+    display: flex;
+    position: relative
+}
+
+.recept-info{
+    height:60%;
+    width: 90%;
+    display: flex;
+    position: relative;
+    
+}
