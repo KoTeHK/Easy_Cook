@@ -238,3 +238,76 @@ body{
     flex-direction: column;
     margin-top: 0px;
 }
+
+.cooking-time {
+    margin: 15px 0;
+}
+.time-input {
+    width: 80px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Інгредієнти */
+.ingredient-input {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.ingredient-field {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.ingredients-list {
+    max-height: 200px;
+    overflow-y: auto;
+    padding: 10px;
+    background: #f8f8f8;
+    border-radius: 5px;
+}
+
+.step-input {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.step-field {
+    width: 100%;
+    height: 80px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    resize: vertical;
+}
+.steps-list {
+    margin-top: 10px;
+    padding: 10px;
+    background: #f8f8f8;
+    border-radius: 5px;
+}
+
+.add-btn {
+    background: peru;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.ingredient-item, .step-item {
+    margin: 5px 0;
+    padding: 5px;
+    background: white;
+    border-radius: 3px;
+}
+
+.step-number {
+    font-weight: bold;
+    margin-right: 10px;
+}
