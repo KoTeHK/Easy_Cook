@@ -21,19 +21,48 @@ body{
     display: flex;
     flex-direction: row;
 }
+
+/* Сторінки */
+
 .start-image{
-    display: flex;
+    display: none;
     width: 100%;
     height: 700px;
     position: relative;
 }
 .main-menu{
     flex-direction: row;
-    display: flex;
+    display: none;
     width: 100%;
     position: relative;
     margin-top: 0px;
 }
+
+.create-recept-page{
+    width: 100%;
+    display: none;
+    position: relative;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    top: 50px;
+    margin-left: 0px;
+}
+
+.show-recept-page{
+    width: 100%;
+    height: 1600px;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: center;
+    top: 50px;
+    margin-left: 0px;
+    background-color: aquamarine;
+}
+
+/* --------------------- */
+
 .golovna{
     display: flex;
     width: 100px;
@@ -115,16 +144,24 @@ body{
     box-shadow: 15px black;
     border-radius: 15px;
 }
-
-.create-recept-page{
+/* 2 сторінка */ 
+.name-description{
     width: 100%;
-    display: none;
+    height: 800px;
+    flex-direction: column;
+    display: flex;
     position: relative;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    top: 50px;
-    margin-left: 0px;
+    top: 100px;
+    background-color: lightgray;
+}
+
+.right-column{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    margin: 0px;
 }
 
 .recept-category-choose{
@@ -137,15 +174,16 @@ body{
 }
 
 .recept-face-side{
-    margin-left: 5px;
+    margin-left: 0px;
     width: 15%;
     height: 800px;
     margin-top: 0px;
     display: flex;
     position: relative;
-    flex-direction: row;
+    flex-direction: column;
     background-color: lightgray;
 }
+/* ---------------------- */
 
 .recept-image{
     width: 256px;
@@ -220,25 +258,6 @@ body{
     position: relative;
 }
 
-.name-description{
-    width: 100%;
-    height: 800px;
-    flex-direction: column;
-    display: flex;
-    position: relative;
-    top: 100px;
-    background-color: black;
-}
-
-.right-column{
-    width: 70%;
-    height: 100%;
-    display: flex;
-    position: relative;
-    flex-direction: column;
-    margin-top: 0px;
-}
-
 .cooking-time {
     margin: 15px 0;
 }
@@ -310,4 +329,61 @@ body{
 .step-number {
     font-weight: bold;
     margin-right: 10px;
+}
+
+.show-left-column {
+    display: flex;
+    position: relative;
+    width: 20%;
+    height: 100%;
+}
+
+.show-right-column {
+    display: flex;
+    position: relative;
+    width: 60%;
+    height: 100%;
+}
+
+.show-recept-image {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 256px;
+    align-items: center;
+    justify-content: center;
+}
+
+.show-recept-time{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 20px;
+}
+
+.show-recept-ingredients{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 500px;
+    flex-wrap: wrap;
+}
+
+.show-recept-name{
+    width: 100%;
+    height: 32px;
+    display: flex;
+    position: relative;
+}
+
+.show-recept-description{
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+
+.show-recept-steps{
+    display: flex;
+    position: relative;
+    width: 100%;
 }
