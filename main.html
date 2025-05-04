@@ -7,6 +7,7 @@
     <title>EasyCook</title>
 </head>
 <body>
+<script src="submain.js"> </script>
 <header>
     <div class= "header-menu">  
         <div class="golovna">Головна</div>
@@ -49,29 +50,29 @@
  
     <div class="create-recept-page">
         <div class="recept-category-choose">
-            <p>blalbalbalblbl</p>
+            <p>Категорії</p>
         </div>
         <div class="recept-face-side">
-            <div class="information-recept">
-                <!-- Фото -->
-                <div class="recept-image">Тут повинно бути "фото"</div>
-                <!--🫥 Час готування -->
-                <div class="cooking-time">
-                    <label>Час готування (хв):</label>
-                    <input type="number" min="1" value="30" class="time-input">
-                </div>
-                <!-- Інгредієнти -->
-                <div class="ingredients-section">
-                    <h3>Інгредієнти</h3>
-                    <div class="ingredient-input">
-                        <input type="text" placeholder="Новий інгредієнт" class="ingredient-field">
-                        <button class="add-btn" onclick="addIngredient()">+</button>
-                    </div>
-                    <div class="ingredients-list"></div>
-                </div>
-                <div class="recept-description">                    
-                </div>
+            
+            <!-- Фото -->
+            <div class="recept-image">Тут повинно бути "фото"</div>
+            <!--🫥 Час готування -->
+            <div class="cooking-time">
+                <label>Час готування (хв):</label>
+                <input type="number" min="1" value="30" class="time-input">
             </div>
+            <!-- Інгредієнти -->
+            <div class="ingredients-section">
+                <h3>Інгредієнти</h3>
+                <div class="ingredient-input">
+                    <input type="text" placeholder="Новий інгредієнт" class="ingredient-field">
+                    <button class="add-btn" onclick="addIngredient()">+</button>
+                </div>
+                <div class="ingredients-list"></div>
+            </div>
+            <div class="recept-description">                    
+            </div>
+            
         </div>
             <!-- Права колонка (Кроки) -->
         <div class="right-column">
@@ -85,9 +86,6 @@
                 <div class="recept-info"> 
                     <input type="text" maxlength="400" placeholder="Опис страви" class="searchbar-recept-info"> 
                 </div>
-            </div>
-
-            <div class="steps-section">
                 <h3>Кроки приготування</h3>
                 <div class="step-input">
                     <textarea placeholder="Новий крок" class="step-field"></textarea>
@@ -107,7 +105,7 @@
             if(input.value.trim()) {
                 const div = document.createElement('div');
                 div.className = 'ingredient-item';
-                div.textContent =  ${input.value};
+                div.textContent =  `${input.value}`;
                 list.appendChild(div);
                 input.value = '';
             }
@@ -121,12 +119,25 @@
                 const div = document.createElement('div');
                 div.className = 'step-item';
                 div.innerHTML = 
-<span class="step-number">${list.children.length + 1}.</span>
-<span class="step-text">${input.value}</span>
-                ;
+                <span class="step-number">${list.children.length + 1}.</span>;
+                <span class="step-text">${input.value}</span>;
                 list.appendChild(div);
                 input.value = '';
             }
         }
     </script>
+
+<!-- Показ рецепту -->
+    <div class="show-recept-page">
+        <div class="show-left-column">
+            <div class="show-recept-image"></div>
+            <div class="show-recept-time"></div>
+            <div class="show-recept-ingredients"></div>
+        </div>
+        <div class="show-right-column">
+            <div class="show-recept-name"></div>
+            <div class="show-recept-description"></div>
+            <div class="show-recept-steps"></div>
+        </div>
+    </div>
 </body>
