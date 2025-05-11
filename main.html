@@ -10,12 +10,10 @@
 <script src="submain.js"> </script>
 <header>
     <div class= "header-menu">  
+        <div class="bb"></div>
         <div class="golovna">Головна</div>
         <div class="nn">
-            <div class="poshuk">
-                <input type="text" maxlength= "12" placeholder="Search" class="searchbar">
-            </div>
-            <div class="create-recept"><img src="create-recept.png" class="create-recept-image">Написати рецепт</div>
+            <div class="change-theme">Змінити тему</div>
         </div>
     </div>
     <div class="start-image">
@@ -23,14 +21,19 @@
     </div>
 </header>
     <div class="main-menu">
-        <div class="categories">
-           <p>Категорії</p>
-           <p>Супи</p>
-           <p>Закуски</p>
-           <p>Торти</p>
-           <p>Легка страва</p>
+        <div class="reklama">
+            <img src ="reklama1.png">
         </div>
         <div class= "recept-list">
+            <div class="recept-card">
+                <div class="recept-photo-view">photo</div>
+                <div class="recept-full-view">
+                    <div class="recept-category-view">супи</div>
+                    <div class="recept-name-view">Борщ</div>
+                    <div class="custom-line"></div>
+                    <div class="recept-description-view">Виник ще до появи картоплі та буряка, коли основою служив борщівник. Сьогодні входить до Національного списку нематеріальної спадщини України.</div>
+                </div>
+            </div>
             <div class="recept-card">
                 <div class="recept-photo-view">photo</div>
                 <div class="recept-full-view">
@@ -41,12 +44,48 @@
                 </div>
             </div>
             <div class="recept-card">
-
+                <div class="recept-photo-view">photo</div>
+                <div class="recept-full-view">
+                    <div class="recept-category-view">category</div>
+                    <div class="recept-name-view">name</div>
+                    <div class="custom-line"></div>
+                    <div class="recept-description-view">description</div>
+                </div>
             </div>
+            <div class="recept-card">
+                <div class="recept-photo-view">photo</div>
+                <div class="recept-full-view">
+                    <div class="recept-category-view">category</div>
+                    <div class="recept-name-view">name</div>
+                    <div class="custom-line"></div>
+                    <div class="recept-description-view">description</div>
+                </div>
+            </div>
+            <div class="recept-card">
+                <div class="recept-photo-view">photo</div>
+                <div class="recept-full-view">
+                    <div class="recept-category-view">category</div>
+                    <div class="recept-name-view">name</div>
+                    <div class="custom-line"></div>
+                    <div class="recept-description-view">description</div>
+                </div>
+            </div>
+            <div class="recept-card">
+                <div class="recept-photo-view">photo</div>
+                <div class="recept-full-view">
+                    <div class="recept-category-view">category</div>
+                    <div class="recept-name-view">name</div>
+                    <div class="custom-line"></div>
+                    <div class="recept-description-view">description</div>
+                </div>
+            </div>
+        </div>
+        <div class="reklama">
+            <img src="reklama2.jpg">
         </div>
     </div>
 
-<!-- 2 сторінка-->
+<!--
  
     <div class="create-recept-page">
         <div class="recept-category-choose">
@@ -54,14 +93,14 @@
         </div>
         <div class="recept-face-side">
             
-            <!-- Фото -->
+            
             <div class="recept-image">Тут повинно бути "фото"</div>
-            <!--🫥 Час готування -->
+           
             <div class="cooking-time">
                 <label>Час готування (хв):</label>
                 <input type="number" min="1" value="30" class="time-input">
             </div>
-            <!-- Інгредієнти -->
+            
             <div class="ingredients-section">
                 <h3>Інгредієнти</h3>
                 <div class="ingredient-input">
@@ -74,7 +113,6 @@
             </div>
             
         </div>
-            <!-- Права колонка (Кроки) -->
         <div class="right-column">
 
             <div class="name-description">
@@ -92,6 +130,9 @@
                     <button class="add-btn" onclick="addStep()">+</button>
                 </div>
                 <div class="steps-list"></div>
+                <div class="save-recept">
+                    <div class="save-recept-button"> Зберегти </div>
+                </div>
             </div>
         </div>
     </div>
@@ -126,18 +167,24 @@
             }
         }
     </script>
+-->
 
 <!-- Показ рецепту -->
     <div class="show-recept-page">
         <div class="show-left-column">
-            <div class="show-recept-image"></div>
-            <div class="show-recept-time"></div>
-            <div class="show-recept-ingredients"></div>
+            <div class="show-recept-image1"><img src ="img-show1.jpg"></div>
+            <div class="show-recept-image2"><img src ="img-show2.png"></div>
+            <div class="show-recept-image3"><img src ="img-show3.png"></div>
+            <div class="show-recept-image4"><img src ="img-show4.png"></div>
+            <div class="show-recept-image5"><img src ="img-show5.png"></div>
+            <div class="show-recept-image6"><img src ="img-show6.png"></div>
+            <div class="show-recept-time">error</div>
+            <div class="show-recept-ingredients">error</div>
         </div>
         <div class="show-right-column">
-            <div class="show-recept-name"></div>
-            <div class="show-recept-description"></div>
-            <div class="show-recept-steps"></div>
+            <div class="show-recept-name">error</div>
+            <div class="show-recept-description">error</div>
+            <div class="show-recept-steps">error</div>
         </div>
     </div>
 </body>
