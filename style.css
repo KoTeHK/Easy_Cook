@@ -269,12 +269,12 @@ body{
     
 }
 
-.recept-photo-view{
-    width: 40%;
+.recept-photo-view img{
+    width: 95%;
     height: 100%;
-    display: flex;
-    justify-content: center;
+    display: inline;
     position: relative;
+    object-fit: cover;
 }
 
 .recept-description-view{
@@ -462,11 +462,11 @@ body{
     flex-wrap: wrap;
 }
 
-.show-recept-image1 {
+.show-recept-image1 img {
     display: inline;
     width: 100%;
     object-fit: cover;
-    height: 212px;
+    height: 256px;
     margin: 10px;
 }
 
