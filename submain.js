@@ -3,66 +3,66 @@ const spisok = [
     {
         "photo":"img-show1.jpg",
         "name":"Борщ",
-        "description":"desc1",
-        "category":"cat1",
-        "history":"",
-        "ingredients":"",
-        "time":"",
-        "steps":""
+        "description":"Щоб вам не казали і як би не переконували, але справжній український борщ - це той борщ, який варять у вашій родині. В Україні існує десятки рецептів борщу. Вони варіюються у залежності від регіону. Але в кожного борщ асоціюється зі смаком дитинства - з борщем, який варила мама чи бабуся. Пропонуємо вам класичний рецепт українського борщу. А також пропонуємо приготувати до нього пампушки з часником за нашим рецептом.",
+        "category":"Супи",
+        "history":" Історія: Виник ще до появи картоплі та буряка, коли основою служив борщівник. Сьогодні входить до Національного списку нематеріальної спадщини України.",
+        "ingredients":"Вода – 1,5-2 л. свинина або яловичина на кістці – 400 г, картопля – 4 шт. ( середні), буряк – 2 шт. ( невеликі), морква – 1 шт. цибуля – 3 шт. ( середні), капуста білокачанна свіжа – 300 г, томатна паста – 2 ст. л.",
+        "time":"1-2 години",
+        "steps":"— крок 1: У підсоленій воді зварити м’ясо. Додати порізану картоплю. — крок 2: На сковорідці тушкувати на оливковій олії натерту моркву, буряк та порізану кубиком цибулю, додати томатний соус, оцет, сіль,цукор, перець. Перекласти в каструлю до м’яса та картоплі. — крок 3: Додати посічену капусту, лавровий лист, духмяний перець. Варити  близько години, до готовності. Подавати з сметаною та пампушками."
 
     },
     {
-        "photo":"img-show1.jpg",
-        "name":"Борщ",
+        "photo":"show-img2.jpg",
+        "name":"Грибна юшка",
         "description":"2",
-        "category":"2",
-        "history":"",
+        "category":"Супи",
+        "history":"Наваристий суп з білих грибів, цибулі та зелени. Часто доповнюється галушками. Секрет у використанні сушених грибів, які надають інтенсивний аромат .",
         "ingredients":"",
         "time":"",
         "steps":"" 
     },
     {
-        "photo":"img-show1.jpg",
-        "name":"Борщ",
-        "description":"бамбини гузини",
-        "category":"cat1",
-        "history":"",
-        "ingredients":"чсмчсмчсмчсмчсм",
-        "time":"",
-        "steps":""
+        "photo":"img-show3.jpg",
+        "name":"Банош",
+        "description":"Банош або бануш - найвідоміша страва української закарпатської кухні, яка готується з кукурудзяної каші з додаванням сиру і м'яса за смаком. Це ситна і недорога страва, оскільки кукурудзяна крупа є однією з найдешевших. Банош рекомендується готувати на один раз, оскільки після повторного розігрівання каша стає несмачною.",
+        "category":"Українські",
+        "history":"Кукурудзяна каша, зварена на вершках або молоці, з додаванням овечої бринзи, шкварок та смаженої цибулі. Традиційно готується чоловіками в чавунному посуді .",
+        "ingredients":"жирні вершки або сметана — 500 мл; кукурудзяна крупа — 200 грамів; сіль за смаком; бринза або шкварки — за смаком (для подачі).",
+        "time":"20-50хв",
+        "steps":"Крупу промийте 2-3 рази під проточною водою. Воду залити в каструлю і довести до кипіння. Додати молоко і сметану в воду, довести до кипіння на середньому вогні. У киплячу рідину всипати промиту кукурудзяну крупу. Посолити і поперчити кашу за смаком. Варити банош до готовності, поки каша не почне легко відходити від стінок каструлі (приблизно 25-30 хвилин). Після цього додати в кашу інші інгредієнти за смаком - бринзу, сало, гриби і т. д."
 
     },
     {
-        "photo":"img-show1.jpg",
-        "name":"Тралалело тралала",
+        "photo":"img-show4.jpg",
+        "name":"Голубці",
         "description":"Крокодило бомболдило",
-        "category":"cat1",
-        "history":"",
+        "category":"Страви",
+        "history":"Походження: Запозичені з турецької кухні (страва «сарма»), адаптовані з використанням капустяного листя.",
         "ingredients":"фывфывфыв",
         "time":"",
         "steps":""
 
     },
     {
-        "photo":"img-show1.jpg",
-        "name":"Борщ",
+        "photo":"img-show5.jpg",
+        "name":"Бограч",
         "description":"бамбини гузини",
-        "category":"cat1",
-        "history":"",
+        "category":"Українські",
+        "history":"Вважається гастрономічною візитівкою Закарпаття. Готується у казані на відкритому вогні з яловичини, свинини або баранини, цибулі, моркви, картоплі та грибів. Подають у хлібній чаші для додаткового аромату .",
         "ingredients":"чсмчсмчсмчсмчсм",
         "time":"",
         "steps":""
 
     },
     {
-        "photo":"img-show1.jpg",
-        "name":"Борщ",
-        "description":"бамбини гузини",
-        "category":"cat1",
-        "history":"",
-        "ingredients":"чсмчсмчсмчсмчсм",
-        "time":"",
-        "steps":""
+        "photo":"show-img6.jpg",
+        "name":"Вареники з Капустою",
+        "description":"Українські вареники - універсальне блюдо, яке неможливо не любити. А капуста - одна з найулюбленіших начинок для цієї страви. М'яке повітряне тісто з соковитою начинкою підкорить будь-який шлунок. УНІАН зібрав два смачних рецепти вареників з капустою - пісний і з м'ясом.",
+        "category":"Страви",
+        "history":"У вареників є різні начинки: Солодкі: вишня з медом, мак, сир . Солоні: картопля з сиром, гриби з цибулею, м’ясо . На Закарпатті додають бринзу, на Чернігівщині — шкварки .",
+        "ingredients":"Для тіста: Пшеничне борошно - 400 г. Яйце - 1 шт. Вода (окріп) - 200 мл.  Олія - 1 стол.л. Сіль - 0.5 чайн.л. Для начинки: Капуста білокачанна - 500 г. Лук - 1 шт. Морква - 1 шт. Сіль - 1 чайн.л. Цукор - 0.5 чайн.л. Перець чорний мелений за смаком. Олія - 3 стіл.л.",
+        "time":"30хв - 1 година",
+        "steps":"Начинку рекомендується приготувати перед тістом, оскільки вона має повністю охолонути. Капусту нашаткувати тонкою соломкою і пом'яти руками. Злити сік, що виділився. Викласти капусту в сковороду з гарячою олією і смажити приблизно 7 хвилин на маленькому вогні. Натерти моркву на тертці і дрібно порубати цибулю. Додати овочі до капусти. Тушкувати разом під кришкою 20 хвилин. Готовність овочів визначати по самим товстим шматочках капусти - вони мають стати м'якими. В кінці додати в начинку сіль, цукор і перець. Поки остигає начинка, приготуйте тісто. Борошно просіяти гіркою в глибоку миску. Посередині зробити поглиблення. В окрему ємність розбити яйце і збити його з сіллю і ложкою олії. Вилити яйце в борошно. Потім влити в борошно окріп і замісити тісто ложкою, поки воно злегка не охолоне. Потім вимісити тісто руками, поки воно не перестане липнути. Розділити тісто на однакові кульки і тонко розкачати. У кожен кружечок посередині викласти начинку з капусти і защипнути вареники. Закип'ятити воду у великій каструлі і варити вареники, поки вони не спливуть на поверхню (приблизно 5 хвилин). Рекомендується подавати вареники зі сметаною і смаженою цибулею. Зліплені вареники можна заморозити. Перед заморожуванням їх слід рясно посипати борошном."
 
     }
 ]  
@@ -74,23 +74,19 @@ const spisok = [
 
 // header-menu //
 let golovna = document.querySelector('.golovna')
-let change_theme = document.querySelector('.change-theme')
+let change_theme1 = document.querySelector('.change-theme1')
+let change_theme2 = document.querySelector('.change-theme2')
 // body //
 let recept_list = document.querySelector('.recept-list')
-let recept_card = document.querySelectorAll('.recept-card')
 let start_image = document.querySelector('.start-image')
 let main_menu = document.querySelector('.main-menu')
 let show_recept_page = document.querySelector('.show-recept-page')
 let create_recept_page = document.querySelector('.create-recept-page')
 let view_name = document.querySelectorAll('.recept-name-view')
-let view_category = document.querySelectorAll('.recept-category-view')
 let view_description = document.querySelectorAll('.recept-description-view')
 let view_photo = document.querySelectorAll('.recept-photo-view')
 // 3 сторінка //
-let image1 = document.querySelector('.show-recept-image0')
-let image2 = document.querySelector('.show-recept-image1')
-let image3 = document.querySelector('.show-recept-image2')
-let image4 = document.querySelector('.show-recept-image3')
+let image = document.querySelector('.show-recept-image1')
 let show_recept_page1 = document.querySelector('.show-left-column')
 let show_recept_page2 = document.querySelector('.show-right-column')
 let time = document.querySelector('.show-recept-time')
@@ -99,12 +95,14 @@ let name = document.querySelector('.show-recept-name')
 let description = document.querySelector('.show-recept-description')
 let steps = document.querySelector('.show-recept-steps')
 
+let view_category = document.querySelectorAll('.recept-category-view')
 
 
 
 
 for (let i = 0; i < spisok.length; i += 1) {
     var recept_list_paste = document.getElementById('recept_list');
+
     var newElement = document.createElement('div');
     newElement.classList.add('recept-card');
     newElement.id = `${i}`;
@@ -138,7 +136,6 @@ for (let i = 0; i < spisok.length; i += 1) {
     ElementFullInfo.appendChild(ElementName);
     ElementFullInfo.appendChild(ElementCustomLine);
     ElementFullInfo.appendChild(ElementHistory);
-    
 
     var button = document.getElementById(`${i}`);
 
@@ -148,12 +145,55 @@ for (let i = 0; i < spisok.length; i += 1) {
        start_image.style.display = "none";
        show_recept_page.style.display = "flex";
        name.innerHTML = `${spisok[i].name}`;
-       ingredients.innerHTML = `${spisok[i].ingredients}`;
-       time.innerHTML = `${spisok[i].time}`;
+       ingredients.innerHTML = `Інгредієнти: ${spisok[i].ingredients}`;
+       time.innerHTML = `Час готування: ${spisok[i].time}`;
        steps.textContent = `${spisok[i].steps}`;
        description.innerHTML = `${spisok[i].description}`;
-   });
+       image.innerHTML = `${'<img src= "'} ${spisok[i].photo} ${'">'}`
+    });
 
+    var stravi = document.querySelector('.stravi')
+    var soup = document.querySelector('.soup')
+    var all = document.querySelector('.all')
+    var ukranian = document.querySelector('.ukranian')
+  
+    stravi.addEventListener('click', function(){
+        let straviElement = document.getElementById(`${i}`);
+        straviElement.classList.remove('hide');
+        if (straviElement) {
+            if (`${spisok[i].category}` !== 'Страви'){
+                straviElement.classList.add('hide');
+            }
+        } 
+    });
+
+    soup.addEventListener('click', function(){
+        let popElement = document.getElementById(`${i}`);
+        popElement.classList.remove('hide');
+        if (popElement) {
+            if (`${spisok[i].category}` !== 'Супи'){
+                popElement.classList.add('hide');
+            }
+        } 
+    });
+    
+
+    ukranian.addEventListener('click', function(){
+        let ukranianElement = document.getElementById(`${i}`);
+        ukranianElement.classList.remove('hide');
+        if (ukranianElement) {
+            if (`${spisok[i].category}` !== 'Українські'){
+                ukranianElement.classList.add('hide');
+            }
+        } 
+    });
+
+    all.addEventListener('click', function(){
+        let allElement = document.getElementById(`${i}`);
+        if (`${spisok[i].category}` !== "GG") {
+            allElement.classList.remove('hide');
+            }
+        });
 }
 
 
@@ -165,38 +205,25 @@ golovna.addEventListener('click', function(){
     create_recept_page.style.display = "none"
 })
 
-let a = 0
+const checkbox = document.getElementById('switch');
+    checkbox.addEventListener('change', function(){
+        main_menu.style.background = checkbox.checked ? "#343333": "white";
+        main_menu.style.color = checkbox.checked ? "white": "darkgray";
+        show_recept_page1.style.background = checkbox.checked ? "#343333": "white";
+        show_recept_page1.style.color = checkbox.checked ? "white": "darkgray";
+        show_recept_page2.style.background = checkbox.checked ? "#343333": "white";
+        show_recept_page2.style.color = checkbox.checked ? "lightgray": "darkgray";
+        view_category.style.color = checkbox.checked ? "gray": "darkgray";
+        view_name.style.color = checkbox.checked ? "gray":  "darkgray";
+        view_description.style.color = checkbox.checked ? "gray": "darkgray"; 
+    })
 
-change_theme.addEventListener('click', function(){
-    if (a == 0){
-    main_menu.style.background = "#343333"
-    main_menu.style.color = "white"
-    change_theme.style.background = "white"
-    change_theme.style.color = "black"
-    show_recept_page1.style.background = "#343333"
-    show_recept_page1.style.color = "white"
-    show_recept_page2.style.background = "#343333"
-    show_recept_page2.style.color = "white"
-    view_category.style.color = "lightgray"
-    view_name.style.color = "lightgray"
-    view_description.style.color = "lightgray"
-    a += 1
-    }
-    if (a == 1){
-    main_menu.style.background = "white"
-    main_menu.style.color = "darkgray"
-    change_theme.style.background = "darkgray"
-    change_theme.style.color = "white"
-    show_recept_page1.style.background = "white"
-    show_recept_page1.style.color = "darkgray"
-    show_recept_page2.style.background = "white"
-    show_recept_page2.style.color = "darkgray"
-    view_category.style.color = "darkgray"
-    view_name.style.color = "darkgray"
-    view_description.style.color = "darkgray"  
-    a -= 1
-    }
-})
+
+
+
+
+
+
 //recept_images = []
 //recept_times = []
 //recept_ingredients = []
